@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showingAlert = false
+    
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [.black, .mint]), startPoint: .top, endPoint: .bottom)
-            .ignoresSafeArea(edges: .all)
+        Button("Show me") {
+            showingAlert = true
+        }
+        .foregroundStyle(.blue)
+        .border(Color.green)
+        .alert("Here is the alert", isPresented: $showingAlert) {
+            Button("Dismiss"){}
+            Button("Destroy", role: .cancel){}
+        }
     }
 }
 
