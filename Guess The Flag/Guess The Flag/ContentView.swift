@@ -18,8 +18,7 @@ struct ContentView: View {
         .foregroundStyle(.blue)
         .border(Color.green)
         .alert("Here is the alert", isPresented: $showingAlert) {
-            Button("Dismiss"){}
-            Button("Destroy", role: .cancel){}
+            Button("Dismiss", role: .cancel){}
         }
     }
 }
