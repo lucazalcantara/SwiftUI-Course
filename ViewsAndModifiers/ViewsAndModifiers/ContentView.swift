@@ -7,22 +7,27 @@
 
 import SwiftUI
 
+struct CustomText: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.title)
+            .padding()
+            .foregroundColor(.yellow)
+            .background(.black)
+            .cornerRadius(20)
+    }
+}
+
+extension View {
+    func defaultStyle() -> some View {
+        modifier(CustomText())
+    }
+}
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
-            .background(.red)
-            .cornerRadius(40)
-            .padding()
-            .background(.black)
-            .cornerRadius(40)
-            .padding()
-            .background(.yellow)
-            .cornerRadius(50)
-            .padding()
-            .background(.green)
-            .cornerRadius(65)
-           
+        Text("Mãezinha")
+            .defaultStyle()
+            
     }
 }
 
