@@ -1,14 +1,14 @@
 //
-//  ViewsAndModifiersTests.swift
-//  ViewsAndModifiersTests
+//  BetterRestTests.swift
+//  BetterRestTests
 //
 //  Created by Lucas  Alcantara  on 30/08/25.
 //
 
 import Testing
-@testable import ViewsAndModifiers
+@testable import BetterRest
 
-struct ViewsAndModifiersTests {
+struct BetterRestTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

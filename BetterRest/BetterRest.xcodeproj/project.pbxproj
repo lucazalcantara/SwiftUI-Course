@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8EA064DD2E62EA69000847A2 /* ViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EA064EA2E62EA6A000847A2 /* ViewsAndModifiersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewsAndModifiersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EA064F42E62EA6A000847A2 /* ViewsAndModifiersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewsAndModifiersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA064DD2E62EA69000847A2 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA064EA2E62EA6A000847A2 /* BetterRestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA064F42E62EA6A000847A2 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8EA064DF2E62EA69000847A2 /* ViewsAndModifiers */ = {
+		8EA064DF2E62EA69000847A2 /* BetterRest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ViewsAndModifiers;
+			path = BetterRest;
 			sourceTree = "<group>";
 		};
-		8EA064ED2E62EA6A000847A2 /* ViewsAndModifiersTests */ = {
+		8EA064ED2E62EA6A000847A2 /* BetterRestTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ViewsAndModifiersTests;
+			path = BetterRestTests;
 			sourceTree = "<group>";
 		};
-		8EA064F72E62EA6A000847A2 /* ViewsAndModifiersUITests */ = {
+		8EA064F72E62EA6A000847A2 /* BetterRestUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ViewsAndModifiersUITests;
+			path = BetterRestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		8EA064D42E62EA69000847A2 = {
 			isa = PBXGroup;
 			children = (
-				8EA064DF2E62EA69000847A2 /* ViewsAndModifiers */,
-				8EA064ED2E62EA6A000847A2 /* ViewsAndModifiersTests */,
-				8EA064F72E62EA6A000847A2 /* ViewsAndModifiersUITests */,
+				8EA064DF2E62EA69000847A2 /* BetterRest */,
+				8EA064ED2E62EA6A000847A2 /* BetterRestTests */,
+				8EA064F72E62EA6A000847A2 /* BetterRestUITests */,
 				8EA064DE2E62EA69000847A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		8EA064DE2E62EA69000847A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EA064DD2E62EA69000847A2 /* ViewsAndModifiers.app */,
-				8EA064EA2E62EA6A000847A2 /* ViewsAndModifiersTests.xctest */,
-				8EA064F42E62EA6A000847A2 /* ViewsAndModifiersUITests.xctest */,
+				8EA064DD2E62EA69000847A2 /* BetterRest.app */,
+				8EA064EA2E62EA6A000847A2 /* BetterRestTests.xctest */,
+				8EA064F42E62EA6A000847A2 /* BetterRestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EA064DC2E62EA69000847A2 /* ViewsAndModifiers */ = {
+		8EA064DC2E62EA69000847A2 /* BetterRest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA064FE2E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */;
+			buildConfigurationList = 8EA064FE2E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "BetterRest" */;
 			buildPhases = (
 				8EA064D92E62EA69000847A2 /* Sources */,
 				8EA064DA2E62EA69000847A2 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8EA064DF2E62EA69000847A2 /* ViewsAndModifiers */,
+				8EA064DF2E62EA69000847A2 /* BetterRest */,
 			);
-			name = ViewsAndModifiers;
+			name = BetterRest;
 			packageProductDependencies = (
 			);
 			productName = ViewsAndModifiers;
-			productReference = 8EA064DD2E62EA69000847A2 /* ViewsAndModifiers.app */;
+			productReference = 8EA064DD2E62EA69000847A2 /* BetterRest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8EA064E92E62EA6A000847A2 /* ViewsAndModifiersTests */ = {
+		8EA064E92E62EA6A000847A2 /* BetterRestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA065012E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "ViewsAndModifiersTests" */;
+			buildConfigurationList = 8EA065012E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "BetterRestTests" */;
 			buildPhases = (
 				8EA064E62E62EA6A000847A2 /* Sources */,
 				8EA064E72E62EA6A000847A2 /* Frameworks */,
@@ -131,18 +131,18 @@
 				8EA064EC2E62EA6A000847A2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8EA064ED2E62EA6A000847A2 /* ViewsAndModifiersTests */,
+				8EA064ED2E62EA6A000847A2 /* BetterRestTests */,
 			);
-			name = ViewsAndModifiersTests;
+			name = BetterRestTests;
 			packageProductDependencies = (
 			);
 			productName = ViewsAndModifiersTests;
-			productReference = 8EA064EA2E62EA6A000847A2 /* ViewsAndModifiersTests.xctest */;
+			productReference = 8EA064EA2E62EA6A000847A2 /* BetterRestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8EA064F32E62EA6A000847A2 /* ViewsAndModifiersUITests */ = {
+		8EA064F32E62EA6A000847A2 /* BetterRestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA065042E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "ViewsAndModifiersUITests" */;
+			buildConfigurationList = 8EA065042E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "BetterRestUITests" */;
 			buildPhases = (
 				8EA064F02E62EA6A000847A2 /* Sources */,
 				8EA064F12E62EA6A000847A2 /* Frameworks */,
@@ -154,13 +154,13 @@
 				8EA064F62E62EA6A000847A2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8EA064F72E62EA6A000847A2 /* ViewsAndModifiersUITests */,
+				8EA064F72E62EA6A000847A2 /* BetterRestUITests */,
 			);
-			name = ViewsAndModifiersUITests;
+			name = BetterRestUITests;
 			packageProductDependencies = (
 			);
 			productName = ViewsAndModifiersUITests;
-			productReference = 8EA064F42E62EA6A000847A2 /* ViewsAndModifiersUITests.xctest */;
+			productReference = 8EA064F42E62EA6A000847A2 /* BetterRestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8EA064D82E62EA69000847A2 /* Build configuration list for PBXProject "ViewsAndModifiers" */;
+			buildConfigurationList = 8EA064D82E62EA69000847A2 /* Build configuration list for PBXProject "BetterRest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EA064DC2E62EA69000847A2 /* ViewsAndModifiers */,
-				8EA064E92E62EA6A000847A2 /* ViewsAndModifiersTests */,
-				8EA064F32E62EA6A000847A2 /* ViewsAndModifiersUITests */,
+				8EA064DC2E62EA69000847A2 /* BetterRest */,
+				8EA064E92E62EA6A000847A2 /* BetterRestTests */,
+				8EA064F32E62EA6A000847A2 /* BetterRestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		8EA064EC2E62EA6A000847A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EA064DC2E62EA69000847A2 /* ViewsAndModifiers */;
+			target = 8EA064DC2E62EA69000847A2 /* BetterRest */;
 			targetProxy = 8EA064EB2E62EA6A000847A2 /* PBXContainerItemProxy */;
 		};
 		8EA064F62E62EA6A000847A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EA064DC2E62EA69000847A2 /* ViewsAndModifiers */;
+			target = 8EA064DC2E62EA69000847A2 /* BetterRest */;
 			targetProxy = 8EA064F52E62EA6A000847A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +456,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewsAndModifiers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViewsAndModifiers";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterRest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterRest";
 			};
 			name = Debug;
 		};
@@ -474,7 +474,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewsAndModifiers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViewsAndModifiers";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterRest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterRest";
 			};
 			name = Release;
 		};
@@ -513,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EA064D82E62EA69000847A2 /* Build configuration list for PBXProject "ViewsAndModifiers" */ = {
+		8EA064D82E62EA69000847A2 /* Build configuration list for PBXProject "BetterRest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA064FC2E62EA6A000847A2 /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA064FE2E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */ = {
+		8EA064FE2E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA064FF2E62EA6A000847A2 /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA065012E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "ViewsAndModifiersTests" */ = {
+		8EA065012E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "BetterRestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA065022E62EA6A000847A2 /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA065042E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "ViewsAndModifiersUITests" */ = {
+		8EA065042E62EA6A000847A2 /* Build configuration list for PBXNativeTarget "BetterRestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA065052E62EA6A000847A2 /* Debug */,

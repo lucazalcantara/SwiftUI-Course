@@ -1,6 +1,6 @@
 //
-//  ViewsAndModifiersApp.swift
-//  ViewsAndModifiers
+//  BetterRestApp.swift
+//  BetterRest
 //
 //  Created by Lucas  Alcantara  on 30/08/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ViewsAndModifiersApp: App {
+struct BetterRestApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
