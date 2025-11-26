@@ -29,20 +29,56 @@
 		8E6D0EB22ED63DF70076EA5B /* CoreDataProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8E6B8BD42ED69353001FB3D8 /* Exceptions for "CoreDataProjectUITests" folder in "CoreDataProjectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoreDataProjectUITests.swift,
+				CoreDataProjectUITestsLaunchTests.swift,
+			);
+			target = 8E6D0EA72ED63DF70076EA5B /* CoreDataProjectTests */;
+		};
+		8E6B8BD52ED69353001FB3D8 /* Exceptions for "CoreDataProjectUITests" folder in "CoreDataProjectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoreDataProjectUITests.swift,
+				CoreDataProjectUITestsLaunchTests.swift,
+			);
+			target = 8E6D0EB12ED63DF70076EA5B /* CoreDataProjectUITests */;
+		};
+		8E6B8BEC2ED6BAE3001FB3D8 /* Exceptions for "CoreDataProject" folder in "CoreDataProjectTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Candy+CoreDataClass.swift",
+				"Candy+CoreDataProperties.swift",
+				"Country+CoreDataClass.swift",
+				"Country+CoreDataProperties.swift",
+			);
+			target = 8E6D0EA72ED63DF70076EA5B /* CoreDataProjectTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		8E6B8BD12ED69353001FB3D8 /* CoreDataProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8E6B8BD42ED69353001FB3D8 /* Exceptions for "CoreDataProjectUITests" folder in "CoreDataProjectTests" target */,
+				8E6B8BD52ED69353001FB3D8 /* Exceptions for "CoreDataProjectUITests" folder in "CoreDataProjectUITests" target */,
+			);
+			path = CoreDataProjectUITests;
+			sourceTree = "<group>";
+		};
 		8E6D0E9D2ED63DF60076EA5B /* CoreDataProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8E6B8BEC2ED6BAE3001FB3D8 /* Exceptions for "CoreDataProject" folder in "CoreDataProjectTests" target */,
+			);
 			path = CoreDataProject;
 			sourceTree = "<group>";
 		};
 		8E6D0EAB2ED63DF70076EA5B /* CoreDataProjectTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CoreDataProjectTests;
-			sourceTree = "<group>";
-		};
-		8E6D0EB52ED63DF70076EA5B /* CoreDataProjectUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoreDataProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +111,9 @@
 		8E6D0E922ED63DF60076EA5B = {
 			isa = PBXGroup;
 			children = (
-				8E6D0E9D2ED63DF60076EA5B /* CoreDataProject */,
+				8E6B8BD12ED69353001FB3D8 /* CoreDataProjectUITests */,
 				8E6D0EAB2ED63DF70076EA5B /* CoreDataProjectTests */,
-				8E6D0EB52ED63DF70076EA5B /* CoreDataProjectUITests */,
+				8E6D0E9D2ED63DF60076EA5B /* CoreDataProject */,
 				8E6D0E9C2ED63DF60076EA5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +167,7 @@
 				8E6D0EAA2ED63DF70076EA5B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				8E6B8BD12ED69353001FB3D8 /* CoreDataProjectUITests */,
 				8E6D0EAB2ED63DF70076EA5B /* CoreDataProjectTests */,
 			);
 			name = CoreDataProjectTests;
@@ -152,9 +189,6 @@
 			);
 			dependencies = (
 				8E6D0EB42ED63DF70076EA5B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8E6D0EB52ED63DF70076EA5B /* CoreDataProjectUITests */,
 			);
 			name = CoreDataProjectUITests;
 			packageProductDependencies = (
