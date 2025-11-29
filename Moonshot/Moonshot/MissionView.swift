@@ -18,7 +18,7 @@ struct MissionView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 VStack {
                     Image(mission.image)
                         .resizable()
@@ -98,7 +98,7 @@ struct MissionView: View {
             if let astronaut = astronauts[member.name] {
                 return CrewMember(role: member.role, astronaut: astronaut)
             } else {
-                fatalError("Missin \(member.name)")
+                fatalError("Missing \(member.name)")
             }
         }
     }
